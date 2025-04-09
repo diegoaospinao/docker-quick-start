@@ -1,34 +1,32 @@
-# weather forecast
+# .net core
 
-## .net core
-
-### .net core build
+## .net core build
 
 ```sh
 dotnet build
 ```
 
-### .net core run
+## .net core run
 
 ```sh
 dotnet run
 ```
 
-## docker
+# docker
 
-### docker build
+## docker build
 
 ```sh
 docker build -t weatherforecast-api .
 ```
 
-### docker run
+## docker run
 
 ```sh
 docker run -d -p 5000:8080 weatherforecast-api:latest
 ```
 
-### docker publish to docker hub
+## docker publish to docker hub
 
 ```sh
 docker login
